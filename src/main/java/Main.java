@@ -2,14 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        People addPeople = new People();
-        Product allProduct = new Product();
-        Calculator addCalculator = new Calculator();
-        addPeople.person();
-        addPeople.morePerson();
-        allProduct.addProduct();
-        allProduct.addMoreProduct();
-        addCalculator.endCalculator(allProduct.fullPrice, addPeople.personCheck);
+        Rock Bars = new Rock();
+        Bars.person();
+        Bars.morePerson();
+        Bars.addProduct();
+        Bars.addMoreProduct();
+        Bars.endCalculator();
 
        // String rub = " Рублей";
         //float priceForOne;
