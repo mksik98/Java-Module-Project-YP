@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class People {
     Scanner scanner = new Scanner(System.in);
     int personCheck;
@@ -8,7 +7,6 @@ public class People {
         while (true){
             if (!scanner.hasNextInt()) {
                 System.out.println("Введите целое число, а не "+scanner.nextLine());
-                continue;
             } else {
                 personCheck= scanner.nextInt();
                 break;

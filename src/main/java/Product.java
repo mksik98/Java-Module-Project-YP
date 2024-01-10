@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Product {
     Scanner scanner = new Scanner(System.in);
+
     String product;
     String fullProduct = "Добавленные товары: ";
-    String rub = " Рублей";
     float price;
     float fullPrice;
     void addProduct() {
